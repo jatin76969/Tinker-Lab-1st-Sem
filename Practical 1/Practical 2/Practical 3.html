@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Practical No. 3</title>
+
+    <style>
+        table, th, td {
+            border: 2px solid black;
+            border-collapse: collapse;
+        }
+
+        body {
+            background-image: url("Background for form.jpg");
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+    </style>
+</head>
+
+<body>
+
+    <h1>STUDENT REGISTRATION FORM</h1>
+
+    <form>
+
+<table width="100%">
+    <caption>IMPORTANT DATA</caption>
+
+    <tr>
+        <th colspan="3">INFO</th>
+    </tr>
+
+    <tr>
+        <th colspan="3">STUDENT DETAILS</th>
+    </tr>
+
+    <tr>
+        <th>PRN</th>
+        <th>NAME</th>
+        <th>MOBILE NUMBER</th>
+    </tr>
+
+    <tr>
+        <td>
+            <input type="text" name="prn">
+        </td>
+
+        <td>
+            <input type="text" name="name">
+        </td>
+
+        <td>
+            <input type="text" name="mobile">
+        </td>
+    </tr>
+</table>
+
+
+        <br><br>
+
+        <label>
+            <h3>ADDRESS:</h3>
+        </label>
+
+        <textarea rows="5" cols="50" name="address">
+ENTER ADDRESS HERE...
+        </textarea>
+
+        <br><br>
+
+        <h3>Select Your Subjects:</h3>
+        <input type="checkbox" name="M1"> M1<br>
+        <input type="checkbox" name="PHY_QC"> PHY QC<br>
+        <input type="checkbox" name="PC"> PC<br>
+        <input type="checkbox" name="NANOTECHNOLOGY"> NANOTECHNOLOGY<br>
+        <input type="checkbox" name="TINKER_LCS"> TINKER LCS<br>
+        <input type="checkbox" name="TPCS"> TPCS
+
+        <br><br>
+
+        <h3>Select Your Semester:</h3>
+        <input type="radio" name="Sem"> I<br>
+        <input type="radio" name="Sem"> III<br>
+        <input type="radio" name="Sem"> IV<br>
+        <input type="radio" name="Sem"> VII
+
+        <br><br>
+
+        <h3>Select Your Section:</h3>
+        <input type="radio" name="SEC"> A<br>
+        <input type="radio" name="SEC"> B<br>
+        <input type="radio" name="SEC"> C<br>
+        <input type="radio" name="SEC"> D<br>
+        <input type="radio" name="SEC"> E<br>
+        <input type="radio" name="SEC"> F
+
+        <br><br>
+
+        <h3>Please Select Your Club:</h3>
+        <select name="club">
+            <option>Data Cyclone</option>
+            <option selected>IEEE</option>
+            <option>CSI</option>
+            <option>ACM</option>
+        </select>
+
+        <br><br>
+
+        <h3>Please Upload Your Photo:</h3>
+        <input type="file" name="upload">
+
+        <br><br>
+
+        <input type="submit" value="Submit">
+        <input type="reset" value="Reset">
+
+    </form>
+
+</body>
+</html>
